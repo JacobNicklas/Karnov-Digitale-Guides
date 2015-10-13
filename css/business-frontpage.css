@@ -1,0 +1,53 @@
+body {
+    padding-top: 78px;
+    overflow-x: hidden;
+    font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+}
+
+/*! header */
+
+.business-header {
+    background: url(../img/sg-banner.jpg) center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding: 50px 0 50px 0;
+  }
+
+  .tagline {
+        text-shadow: 0 0 10px #000;
+        color: #fff;
+        font-weight: 700;
+  }
+
+  .img-center {
+        margin: 0 auto;
+  }
+
+/*! boostrap overwrites */
+
+.navbar-default {
+  border-style: solid;
+  border-width: 8px 0 0 0;
+  border-color: #f9eb3a;
+  padding: 10px 0 10px 0;
+  margin: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+
+/*! footer */
+
+footer {
+    margin: 50px 0;
+}
